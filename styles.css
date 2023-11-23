@@ -14,17 +14,19 @@ body{
     margin: auto;
 }
 nav{
-    background-color: rgb(196, 196, 196);
+    background-color: rgb(205, 202, 202);
 }
 nav ul{
     list-style-type: none;
     display: grid;
     grid-template-columns:1fr 6fr 1fr 1fr;
-    gap: 10px;
+    gap: 7px;
 }
 nav ul li a{
     text-decoration: none;
     color: red;
+    font-size: 17px;
+    border-left: 1 px solid rgb(24, 23, 23);
 }
 
 img{
@@ -34,7 +36,11 @@ img{
 .kepek{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 5px;
+    gap: 3px;
+}
+div{
+    border:1px solid grey; 
+    padding: 3px;
 }
 @media screen and (max-width: 450px){
     body {
